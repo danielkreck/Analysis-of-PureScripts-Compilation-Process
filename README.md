@@ -1,1 +1,18 @@
-# PureScript
+# Zielsetzung und Vorgehen
+Diese Ausarbeitung ist Ergebnis einer Projektaufgabe des Moduls Kernel-Architekturen in Programmiersprachen, im Fachbereich MNI der Technischen Hochschule Mittelhessen. Im Kern geht es darum sich Konzepten funktionaler Sprachen (ADT's, Typklassen, Funktoren, Monaden, ...) zu nähern und diese zu verstehen, indem man sich anschaut, wie sie implementiert sind. Es stellte sich heraus, dass die Hürde am Anfang vergleichweise groß ist, um die grundlegenden Konzepte zu verstehen (z.B. bei der Verwendung von Typklassen bereits bei einer simplen Addition von Ganzzahlen) und es anschließend bei fortgeschritteneren Konzepten (z.B. Funktoren oder Monaden) leichter wird über diese zu reden und sie zu begreifen, sind die grundlegende Konzepte erst einmal verinnerlicht. Deshalb empfiehlt es sich, je nach Wissenstand, dort einzusteigen wo Wissen fehlt, im Zweifel am Anfang, und diese Ausarbeitung streng der Reihenfolge nach zu lesen.
+
+## Kontext
+Im Rahmen des Moduls Kernel-Architekturen in Programmiersprachen beschäftigen wir uns mit Sprachen dieser Art. Dies sind Sprachen, welche aus einem kleinen Sprachkern aufgebaut und meist funktionaler Natur sind.
+
+## Problem
+Als individuelle Projektaufgabe soll sich mit einer Kernel-basierten Sprache beschäftigt und ihr Übersetzungsmechanismus beschrieben werden. Das dient dem Zweck zu ergründen wie dieser aussieht und aufgebaut ist, welche Sprachkonstrukte zur Abbildung genutzt werden und damit auch zu erforschen, wie eine sich in der Praxis befindliche Kernel-basierte Sprache strukturiert ist und im Kern funktioniert. Es geht also nicht um weniger, als zu erforschen, wie gut man sich einer fremden Sprache unter einem potentiell fremden Paradigma nähern kann, wenn man den Zielcode analysiert, der auf ein bereits bekanntes Paradigma aufsetzt.
+
+## Aufgabe
+Dem Problem wird mit der Programmiersprache Purescript, welche nach Javascript kompiliert, begegnet. Ziel ist es Muster in der Übersetzung von PureScript nach JavaScript zu erkennen sowie zu beschreiben und sich dadurch der Sprache PureScript zu nähern.
+
+Der Beschreibungsprozess ist wie folgt aufgebaut. Die aufgegriffenen Spachelemente von Purescript werden erklärt und damit wird kein Wissen in der Sprache selbst vorausgesetzt, um sie zu verstehen. Im Anschluss wird die Übersetzung nach Javascript aufgezeigt und diese Abbildung beschrieben. Das hat zur Folge, dass die Kapitel thematisch aufeinander aufbauen müssen. Als erstes steht bspw. das Modulkonzept von PureScript, gefolgt von Funktionen, ohne Typdeklarationen einzuführen. Diese werden erst genutzt, wenn Typen im nächsten Kapitel eingeführt wurden. Allgemeine Begriffe oder Definitionen der Informatik, insbesondere der Softwareentwicklung, werden allerdings vorausgesetzt.
+
+Um im Vorgehen systematisch zu sein, wird sich anhand der Gliederung des Buches "PureScript by Example" von Phil Freeman orientiert. Die größten und wichtigsten Themenblöcke bilden in dieser Ausarbeitung die Kapitel. Kleinere oder von ihrer Abbildung her uninteressantere Themenbereiche fließen entweder innerhalb eines Kapitels am Rande ein oder werden nicht betrachtet. Ein Beispiel für einen wichtigen Themenblock, der ein Kapitel aufspannt, sind Typen, untergliedert in einfache Typen, Algebraische Typen und Typklassen. Ein Beispiel für einen Themenbereich, der nur am Rande einfließt, wäre bspw. Pattern Matching.
+
+# Pictures
+Except for the two fold illustrations, for all pictures "Copyright Manning Publications, drawn by adit.io" holds.
