@@ -15,4 +15,4 @@ Der Beschreibungsprozess ist wie folgt aufgebaut. Die aufgegriffenen Spachelemen
 Um im Vorgehen systematisch zu sein, wird sich anhand der Gliederung des Buches "PureScript by Example" von Phil Freeman orientiert. Die größten und wichtigsten Themenblöcke bilden in dieser Ausarbeitung die Kapitel. Kleinere oder von ihrer Abbildung her uninteressantere Themenbereiche fließen entweder innerhalb eines Kapitels am Rande ein oder werden nicht betrachtet. Ein Beispiel für einen wichtigen Themenblock, der ein Kapitel aufspannt, sind Typen, untergliedert in einfache Typen, Algebraische Typen und Typklassen. Ein Beispiel für einen Themenbereich, der nur am Rande einfließt, wäre bspw. Pattern Matching.
 
 # Pictures
-Except for the two fold illustrations, for all pictures "Copyright Manning Publications, drawn by adit.io" holds.
+The LICENSE doesn't hold for all content in folder "Pictures". Except for the two fold illustrations, for all pictures "Copyright Manning Publications, drawn by adit.io" holds. The fold illustrations are from the official Haskell Wiki and are protected by their corresponding license.
